@@ -1,0 +1,136 @@
+body {
+  background-color: #708090;
+}
+
+/*
+|--------------------------
+|	Channel & User Parts
+|--------------------------
+*/
+
+.addBtn {
+	margin: 10px;
+	font-size: 14px;
+	float: right;
+}
+
+.sidebarLeft {
+  position: fixed;
+  height: 100%;
+  width: 200px;
+  background-color: darkslategray;
+  padding-top: 10px;
+  top: 0;
+  left: 0;
+}
+
+.sidebarLeft a,
+.sidebarRight a {
+  text-decoration: none;
+  padding-right: 5px;
+  text-align: right;
+  font-size: 20px;
+  color: black;
+  display: block;
+}
+
+.sidebarLeft a:hover,
+.sidebarRight a:hover {
+  color: #f1f1f1;
+}
+
+.sidebarLeft h2,
+.sidebarRight h2 {
+  text-align: center;
+  color: white;
+}
+
+.sidebarRight {
+  position: fixed;
+  height: 100%;
+  width: 200px;
+  background-color: darkslategray;
+  padding-top: 10px;
+  top: 0;
+  right: 0;
+}
+
+.showUser a {
+  display: inherit;
+  color: blue;
+  font-size: 30px;
+}
+
+.currentChannel {
+	margin:-25px 175px 0 185px;
+	background-color: darkslategray;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	padding: 10px;
+}
+
+/*
+|------------------
+|	Message Part
+|------------------
+*/
+.main {
+  margin: 0 187px 0 185px;
+  word-wrap: break-word;
+  font-size: 15px;
+  height: 51.9rem;
+  overflow: auto;
+}
+
+#messages {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#messages li {
+  padding: 10px 10px;
+}
+
+#messages li:nth-child(odd) {
+  background: #b0c4de;
+}
+
+.userStyle {
+  color: black;
+  font-size: 16px;
+  text-decoration: under line;
+  font-weight: bold;
+}
+
+/*
+|------------------
+|	Form Part
+|------------------
+*/
+
+form {
+  margin-bottom: -10px;
+  margin-left: 180px;
+  position: fixed;
+  padding: 5px;
+  width: 100%;
+  bottom: 0;
+}
+
+.formMessage input[type="text"] {
+  background-color: white;
+  padding: 10px;
+  width: 79.6%;
+  color: black;
+}
+
+form button {
+  margin-left: -5px;
+  margin-bottom: 5px;
+  color: white;
+  border: none;
+  width: 80%;
+  background-color: darkslategray;
+}
